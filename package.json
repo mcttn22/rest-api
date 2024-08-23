@@ -1,0 +1,22 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Practice RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcttn22/rest-api.git"
+  },
+  "author": "Max Cotton <maxcotton22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcttn22/rest-api/issues"
+  },
+  "homepage": "https://github.com/mcttn22/rest-api#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
