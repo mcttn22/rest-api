@@ -35,7 +35,9 @@ Start API with:
   ```
 
 Interact with API with:
-- curl -X POST http://localhost:3000/api -H "Content-Type: application/json" -d '{"name": "John Doe"}'
+- ```
+  curl -X POST http://localhost:3000/api -H "Content-Type: application/json" -d '{"name": "John Doe"}'
+  ```
 
 ## Development
 
