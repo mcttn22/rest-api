@@ -4,3 +4,9 @@
  *
  */
 
+const getDataService = async () => {
+	return "Hello World";
+};
+
+export { getDataService };
+
