@@ -1,3 +1,9 @@
+/*
+ * @fileoverview
+ * Basic connection to MongoDB
+ *
+ */
+
 import mongoose from "mongoose";
 
 async function setupDatabase () {
