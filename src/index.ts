@@ -5,9 +5,12 @@
  */
 
 import dotenv from "dotenv";
+import { setupDatabase } from "./config/database";
 import { app } from "./app";
 
 dotenv.config();
+
+setupDatabase();
 
 const PORT = process.env.PORT;
 

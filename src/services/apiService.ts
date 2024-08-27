@@ -4,8 +4,10 @@
  *
  */
 
+import { dataModel } from "../models/apiModel";
+
 const getDataService = async () => {
-	return "Hello World";
+	return await dataModel.find({});
 };
 
 export { getDataService };
