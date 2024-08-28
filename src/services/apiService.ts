@@ -6,9 +6,18 @@
 
 import { dataModel } from "../models/apiModel";
 
-const getDataService = async () => {
+const readData = async () => {
 	return await dataModel.find({});
 };
 
-export { getDataService };
+const createData = async (data: string) => {
+	dataModel.create({ data }).then((savedData) => {
+		console.log(`${data} saved to database`);
+		return savedData;
+	}).catch((e) => {
+		console.log(e);
+	});
+};
+
+export { readData, createData };
 
