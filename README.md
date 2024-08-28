@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/mcttn22/rest-api/actions/workflows/cicd.yml/badge.svg)](https://github.com/mcttn22/rest-api/actions/workflows/cicd.yml)
+[![CI/CD](https://github.com/mcttn22/rest-api/actions/workflows/main.yml/badge.svg)](https://github.com/mcttn22/rest-api/actions/workflows/main.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 [![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)](https://www.typescriptlang.org)
 
