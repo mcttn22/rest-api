@@ -5,11 +5,12 @@
  */
 
 import { Router } from "express";
-import { getData } from "../controllers/apiController";
+import { getData, postData } from "../controllers/apiController";
 
 const router = Router();
 
 router.get("/", getData);
+router.post("/", postData);
 
 export { router };
 

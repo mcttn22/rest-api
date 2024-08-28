@@ -12,5 +12,11 @@ const getData = async (req: Request, res: Response) => {
 	res.json(data);
 };
 
-export { getData };
+const postData = async (req: Request, res: Response) => {
+	const data = req.body;
+	res.json(data);
+};
+
+
+export { getData, postData };
 
