@@ -11,7 +11,7 @@ const readData = async () => {
 };
 
 const createData = async (data: string) => {
-	dataModel.create({ data }).then((savedData) => {
+	await dataModel.create({ data }).then((savedData) => {
 		console.log(`${data} saved to database`);
 		return savedData;
 	}).catch((e) => {
