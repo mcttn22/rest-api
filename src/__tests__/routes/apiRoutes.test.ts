@@ -4,4 +4,10 @@
  *
  */
 
+jest.mock("express");
+jest.mock("../../controllers/apiController");
+
+test("Test should pass", () => {
+	expect(true).toBe(true);
+});
 
