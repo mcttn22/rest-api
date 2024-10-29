@@ -23,6 +23,9 @@
      npm install
      ```
 
+4. Add .env file:
+   - Add PORT and MONGO_URI values
+
 ## Usage
 
 Build javascript files with:
